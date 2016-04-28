@@ -211,7 +211,7 @@ $border-main:#D4CBB5;
 .main-menu{
   border-bottom: 1px dotted $border-main;
 }
-.menu{
+.the-menu{
   @include list(#262122, 20px, 0,$media:"responsive");
   text-align: center;
   li{
@@ -564,4 +564,25 @@ footer{
       color:rgba(255,255,255,.4);
     }
   }
+}
+
+.suits{
+  img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .textformat{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    hr{
+      max-width: 200px;
+      margin-top: 30px;
+    }
+  }
+}
+
+.tabs-title > a{
+  border-bottom: 1px solid #C4B699;
 }
